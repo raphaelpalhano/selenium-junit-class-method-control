@@ -55,6 +55,8 @@ public class HookClass {
 
 ## Instance method
 
+~~~java
+
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
 public class HookMethod {
 
@@ -94,4 +96,4 @@ public class HookMethod {
         driver.quit();
     }
 }
-
+~~~
